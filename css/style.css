@@ -12,3 +12,20 @@
     position: relative;
     overflow: hidden;
 }
+
+.pipe {
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    animation: pipe-animation 2s infinite linear;
+}
+
+@keyframes pipe-animation {
+    from {
+        right: -80%;
+    }
+
+    to {
+        right: 100%;
+    }
+}
